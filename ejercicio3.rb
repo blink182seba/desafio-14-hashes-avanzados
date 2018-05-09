@@ -57,7 +57,7 @@ while op != 10
     a.each do |i|
       i.each do |key, values|
         if values == eli
-          i.delete(:nombre, :edad, :comuna, :genero)
+          a.delete(i)
         end
       end
     end
